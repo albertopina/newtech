@@ -1,1 +1,2 @@
 # newtech
+Repositirio inicial
