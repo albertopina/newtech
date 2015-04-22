@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NewTech.Library.Database", "NewTech.Library.Database\NewTech.Library.Database.vbproj", "{A4994AF8-E023-4FD0-991C-939B3B5136A5}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NewTech.Console.Test", "NewTech.Console.Test\NewTech.Console.Test.vbproj", "{C0E2FBFE-2A1A-4757-B2C9-6D74EEA085A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A4994AF8-E023-4FD0-991C-939B3B5136A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4994AF8-E023-4FD0-991C-939B3B5136A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4994AF8-E023-4FD0-991C-939B3B5136A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0E2FBFE-2A1A-4757-B2C9-6D74EEA085A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0E2FBFE-2A1A-4757-B2C9-6D74EEA085A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0E2FBFE-2A1A-4757-B2C9-6D74EEA085A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0E2FBFE-2A1A-4757-B2C9-6D74EEA085A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
