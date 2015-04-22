@@ -4,7 +4,7 @@
 
         Dim myContext As New NewTech.Library.Database.NewtechContext
 
-        Dim myCliente As New NewTech.Library.Database.Cliente
+        Dim myCliente As New NewTech.Library.Database.Client
         With myCliente
             .Nombre = "Knova SA de CV"
         End With

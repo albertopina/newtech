@@ -1,7 +1,7 @@
-﻿Public Class Actividad
+﻿Public Class Activity
 
     Public Property ID As Long
-    Public Overridable Property Cliente As Cliente
+    Public Overridable Property Client As Client
     Public Property Fecha As Date
     Public Property Horas As Integer
     Public Property CostoXHora As Double

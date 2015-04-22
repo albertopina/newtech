@@ -69,8 +69,8 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Actividad.vb" />
-    <Compile Include="Cliente.vb" />
+    <Compile Include="Activity.vb" />
+    <Compile Include="Client.vb" />
     <Compile Include="Context\NewtechContext.vb" />
     <Compile Include="Migrations\Configuration.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
