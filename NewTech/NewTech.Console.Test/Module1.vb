@@ -1,6 +1,7 @@
 ﻿Module Module1
 
     Sub Main()
+        AppDomain.CurrentDomain.SetData("DataDirectory", "C:\Users\" & Environment.UserName & "\Source\DB")
 
         Dim myContext As New NewTech.Library.Database.NewtechContext
 
