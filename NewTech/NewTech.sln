@@ -7,6 +7,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NewTech.Library.Database", 
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NewTech.Console.Test", "NewTech.Console.Test\NewTech.Console.Test.vbproj", "{C0E2FBFE-2A1A-4757-B2C9-6D74EEA085A2}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NewTech.Services", "NewTech.Services\NewTech.Services.vbproj", "{2ACC0C6E-4A8D-4E96-8CDC-3B01F3395443}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C0E2FBFE-2A1A-4757-B2C9-6D74EEA085A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0E2FBFE-2A1A-4757-B2C9-6D74EEA085A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0E2FBFE-2A1A-4757-B2C9-6D74EEA085A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ACC0C6E-4A8D-4E96-8CDC-3B01F3395443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ACC0C6E-4A8D-4E96-8CDC-3B01F3395443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ACC0C6E-4A8D-4E96-8CDC-3B01F3395443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ACC0C6E-4A8D-4E96-8CDC-3B01F3395443}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
