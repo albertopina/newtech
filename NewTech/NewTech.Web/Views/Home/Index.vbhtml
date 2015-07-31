@@ -1,4 +1,6 @@
-﻿<div class="jumbotron">
+﻿@ModelType IEnumerable(Of NewTech.Library.Database.Client)
+
+<div class="jumbotron">
     <h1>ASP.NET</h1>
     <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
     <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
@@ -23,3 +25,29 @@
         <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301872">Learn more &raquo;</a></p>
     </div>
 </div>
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(Function(model) model.ID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(Function(model) model.Nombre)
+        </th>
+    </tr>
+    @For Each item In Model
+        @<tr>
+            <td>
+                @Html.DisplayFor(Function(modelItem) item.ID)
+            </td>
+            <td>
+                @Html.DisplayFor(Function(modelItem) item.Nombre)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", New With {.id = item.ID}) |
+                @Html.ActionLink("Details", "Details", New With {.id = item.ID}) |
+                @Html.ActionLink("Delete", "Delete", New With {.id = item.ID})
+            </td>
+        </tr>
+    Next
+</table>
